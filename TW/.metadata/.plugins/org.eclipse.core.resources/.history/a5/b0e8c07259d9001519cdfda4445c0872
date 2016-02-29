@@ -1,0 +1,57 @@
+package SoftwaresystemLeitstelle1;
+
+public class TMess1 extends Thread {
+	
+	private TMessStation tms;
+	
+	public TMess1(TMessStation tms){
+		
+		this.tms = tms;
+		start();
+		
+	}
+	
+	public void run(){
+		
+		int z = 0;
+		
+		while(z < 100){
+			
+			z++;
+			
+			for(int i = 0; i < 25; i++){
+				
+				double t1_neu = this.tms.getT1() + 1;
+				
+				this.tms.setT1(t1_neu);
+				
+				
+				try{
+					Thread.sleep(150);
+				} catch(Exception e){
+					e.getStackTrace();
+				}
+				
+			}
+			
+			for(int i = 0; i < 25; i++){
+				
+				double t1_neu = this.tms.getT1() - 0.95;
+				
+				this.tms.setT1(t1_neu);
+				System.out.println(tms.getT1());
+				
+				try{
+					Thread.sleep(1500);
+				} catch(Exception e){
+					e.getStackTrace();
+				}
+				
+			}
+			
+			
+		}
+				
+	}
+
+}

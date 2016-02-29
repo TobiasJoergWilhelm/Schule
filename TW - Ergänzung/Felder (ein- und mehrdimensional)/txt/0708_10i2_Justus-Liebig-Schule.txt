@@ -1,0 +1,15 @@
+Justus-Liebig-Schule;10i2;2007/2008
+Assmann;Jens;06.08.1988
+Borgner;Eva;07.07.1986
+Busch;Oliver;05.04.1991
+Haun;Oliver;23.02.1992
+Hock;Kevin;17.05.1991
+Sauer;Tom;14.03.1993
+Schneider;Markus;08.01.1993
+Keil;Sascha;03.08.1989
+Kissel;Joeren;08.02.1993
+Romanenko;Andrej;13.09.1991
+Roesch;Danny;21.10.1992
+Schuster;Bernd;30.05.1992
+Yilmaz;Ethem;12.07.1990
+Zaiss;Maximilian Jean;11.06.1990

@@ -1,0 +1,12 @@
+package Konto;
+
+public class UI {
+
+	public static void main(String[] args) {
+		
+		Konto konto = new Konto();
+		Mensch mensch = new Mensch();
+
+	}
+
+}

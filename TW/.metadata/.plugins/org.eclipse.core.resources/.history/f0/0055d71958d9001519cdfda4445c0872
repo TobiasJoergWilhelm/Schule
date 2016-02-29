@@ -1,0 +1,24 @@
+package SoftwaresystemLeitstelle1;
+
+public class Leitstelle1UI {
+	
+	private TMessStation tms = null;
+	
+	public Leitstelle1UI(){
+		
+		this.tms = new TMessStation(50, 20);
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Leitstelle1UI l1 = new Leitstelle1UI();
+		
+		
+		TMess1 t1 = new TMess1(l1.tms);
+		
+		
+		
+	}
+
+}

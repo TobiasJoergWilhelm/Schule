@@ -1,0 +1,53 @@
+package SoftwaresystemLeitstelle1;
+
+public class TMess2 {
+	
+	private TMessStation tms;
+	
+	public TMess2(TMessStation tms){
+		
+		this.tms = tms;
+		start;
+		
+	}
+
+	public void run(){
+		
+		int z = 0;
+		
+		while(z < 100){
+			
+			z++;
+			
+			for(int i = 0; i < 25; i++){
+				
+				double t2_neu = this.tms.getT2() + 1;
+				
+				this.tms.setT2(t2_neu);
+				
+				try{
+					Thread.sleep(1500);
+				} catch(Exception e){
+					e.getStackTrace();
+				}
+				
+			}
+			
+			for(int i = 0; i < 25; i++){
+				
+				double t2_neu = this.tms.getT2() - 0.95;
+				
+				this.tms.setT2(t2_neu);
+				
+				try{
+					Thread.sleep(1500);
+				} catch(Exception e){
+					e.getStackTrace();
+				}
+				
+			}
+			
+		}
+				
+	}
+}
