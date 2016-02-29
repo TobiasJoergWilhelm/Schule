@@ -1,0 +1,19 @@
+package Konto;
+
+public class UI {
+
+	public static void main(String[] args) {
+		
+		Konto k = new Konto(1234567890, 500);
+		Mensch m = new Mensch("Tobias", k);
+		
+		for (int i = 0; i < 100; i++){
+			
+			int a = (int) Math.round(Math.random()*20) + 50;
+			
+		}
+		
+		
+	}
+
+}

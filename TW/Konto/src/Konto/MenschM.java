@@ -1,5 +1,0 @@
-package Konto;
-
-public class MenschM {
-
-}

@@ -1,0 +1,16 @@
+package Konto;
+
+public class UI {
+
+	public static void main(String[] args) {
+		
+		for (int i = 0; i < 100; i++){
+			Konto k = new Konto(1234567890, 500);
+			Mensch m = new Mensch("Tobias", k);
+			
+		}
+		
+		
+	}
+
+}
